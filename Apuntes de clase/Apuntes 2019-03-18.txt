@@ -1,0 +1,42 @@
+|			JS										|												C 							|
+|--------------------------------------------------------------------------------------------------------------------------------
+|Interpretado										|	Compilado 	--> Editor de texto											|
+|													|				|-> Compilador												|
+|													|				|-> Ensamblador												|
+---------------------------------------------------------------------------------------------------------------------------------
+|Booleano(True/false)								|	Falso = 0																|
+|													|	Verdadero != 0															|
+---------------------------------------------------------------------------------------------------------------------------------
+|if; else; switch 									|	if; else; switch														|
+|for; while; do while								|	for; while; do while													|
+---------------------------------------------------------------------------------------------------------------------------------
+|'' idem ""											|	'' para caracteres "sueltos"											|
+|													|	"" para más de un carácter (cadena de carácteres)						|
+---------------------------------------------------------------------------------------------------------------------------------
+|Lenguaje tipado									|	Lenguaje fuertemente tipado, es decir, al declarar una variable, 		|
+|													|	tengo indicar su tipo. Estos tipos de dato son:							|	
+|													|		# Interpretado														|
+|													|		# char																|
+|													|		# float																|
+|													|		# double															|
+|													|		# void																|
+---------------------------------------------------------------------------------------------------------------------------------
+|prompt												|	scanf																	|
+|document.get										|																			|
+---------------------------------------------------------------------------------------------------------------------------------
+|alert												|	printf; posee modificadores para definir el tipo de dato en la salida	|
+|document.write										|		%c para un solo caracteres											|
+|													|		%s para un string, es decir, una cadena de caracteres				|
+|													|		%i entera				]--|										|
+|													|		%d entera base decimal	]-----> Ambos con o sin signo				|
+|													|		%f para floats, es decir, numeros decimales (con coma)				|
+---------------------------------------------------------------------------------------------------------------------------------
+|alert("Nombre es"+nombre);							|	printf("Nombre es: %s",nombre);											|
+|alert("Nombre es:"+nombre+"y la edad es:"+edad);	|	printf("Nombre es %s y la edad es %d",nombre,edad);						|	---------------------------------------------------------------------------------------------------------------------------------
+|function mostrar()									|	int main()																|
+|	{												|	{																		|
+|													|																			|
+|	}												|	}																		|
+---------------------------------------------------------------------------------------------------------------------------------
+|Operadores ariméticos, lógicos y relacionales es igual para ambos lenguajes
+
