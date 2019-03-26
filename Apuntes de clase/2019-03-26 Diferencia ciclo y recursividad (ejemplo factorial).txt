@@ -17,6 +17,56 @@ void main(void)
 }
 
 
+//Resolucion con ciclo for y una funcion (sin recursividad) y decrementando el for
+#include <stdio.h>
+
+int mostrarFactorial(int variable)
+{
+    int i,result;
+    result=variable;
+    for (i=variable; i>1;i--)
+    {
+        result=result*(i-1);
+    }
+    printf("\nEl factorial de %d es %d",variable,result);
+}
+
+void main(void)
+{
+    int i,valor,result;
+    printf("\nIngrese numero:");
+    scanf("%d",&valor);
+    result=valor;
+    mostrarFactorial(valor);
+}
+
+
+//Resolucion con ciclo for, incrementando y una funcion (sin recursividad)
+
+#include <stdio.h>
+
+int mostrarFactorial(int variable)
+{
+    int i,result;
+    result=1;
+    for (i=1; variable>i;i++)
+    {
+        result=result*(i+1);
+    }
+    printf("\nEl factorial de %d es %d",variable,result);
+}
+
+void main(void)
+{
+    int i,valor,result;
+    printf("\nIngrese numero:");
+    scanf("%d",&valor);
+    result=valor;
+    mostrarFactorial(valor);
+}
+
+
+
 
 
 
