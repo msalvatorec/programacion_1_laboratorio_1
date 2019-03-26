@@ -1,0 +1,43 @@
+
+//Resolución con ciclo for
+#include <stdio.h>
+int factorial(int );
+void main(void)
+{
+    int i,valor,result;
+    printf("\nIngrese numero:");
+    scanf("%d",&valor);
+    //result=factorial(valor);
+    result=valor;
+    for (i=valor; i>1;i--)
+    {
+        result=result*(i-1);
+    }
+    printf("\nEl factorial de %d es %d",valor,result);
+}
+
+
+
+
+
+//Resolucion con recursividad (llamar de nuevo a la misma funcion)
+#include <stdio.h>
+int factorial(int );
+void main(void)
+{
+    int valor,result;
+    printf("\nIngrese numero:");
+    scanf("%d",&valor);
+    result=factorial(valor);
+    result=valor;
+    printf("\nEl factorial de %d es %d",valor,result);
+}
+
+int factorial(int n)
+{
+    int resp;
+    if(n==1)
+    return 1;
+    resp=n* factorial(n-1);
+    return (resp);
+}
