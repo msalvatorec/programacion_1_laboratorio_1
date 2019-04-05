@@ -10,8 +10,46 @@ void imprimirMenu()
     printf("5. Salir");
 
 }
+
+void calcularTodasLasOperaciones(int a, int b)
+{
+    /*a) Calcular la suma (A+B)
+    b) Calcular la resta (A-B)
+    c) Calcular la division (A/B)
+    d) Calcular la multiplicacion (A*B)
+    e) Calcular el factorial (A!)*/
+    
+    int suma,resta,division,multiplicacion=0;
+    int factorial=1;
+    bool sePuedeDividir=0;
+    
+    suma=a+b;
+    
+    resta=a-b;
+    
+    if (b=0)
+    {
+        sePuedeDividir=0;
+    }
+    else
+    {
+        sePuedeDividir=1;
+        division=a/b;
+    }
+    
+    multiplicacion=a*b;
+    
+    for (int i=2; i<=a; i++)
+    {
+            factorial=factorial*i;
+    }
+
+}
+
+
 int main()
 {
     imprimirMenu();
+    
     return 0;
 }
