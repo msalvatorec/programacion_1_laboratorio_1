@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void imprimirMenu()
+{
+    printf("1. Ingresar 1er operando (A=x)");
+    printf("2. Ingresar 2do operando (B=y)");
+    printf("3. Calcular todas las operaciones");
+    printf("4. Informar resultados");
+    printf("5. Salir");
+
+}
+int main()
+{
+    imprimirMenu();
+    return 0;
+}
