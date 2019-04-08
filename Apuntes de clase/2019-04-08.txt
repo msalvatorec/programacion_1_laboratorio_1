@@ -26,4 +26,17 @@ scanf("%s", nombre);
 Si quisiera escribir el &, deberìa escribirlo asi:
 scanf("%d", &nombre[0]);
 Esto se debe a que el nombre de un vector esta asociado a la dirección de memoria del primer elemento del vector; entonces no necesita la referencia con el &
+scanf tiene la limitación del ingreso por teclado de que corta la cadena al ingresar un " " (espacio en blanco).
+
+
+fgets v gets
+
+gets es solo para sistemas Microsoft; fgets es multiplataforma. Gets tiene muchos baches de seguridad que fgets no tiene.
+
+
+int strcmp(char*, char*)
+devuelve 0 si son iguales.
+devuelve valor entero <0 si la primer cadena es menor a la segunda
+devuelve valor entero >0 si la primer cadena es mayor a la segunda
+
 
