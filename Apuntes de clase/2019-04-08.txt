@@ -20,3 +20,10 @@ Estas funciones provienen de la libreria "string.h"; por lo cual deberiamos colo
 Para mostrar por pantalla el contenido de una variable "string"; hacemos lo siguiente:
 printf("El saludo diciendo: %s", saludo);
 
+Para pedir por teclado el contenido de una variable "string", hacemos lo siguiente:
+scanf("%s", nombre);
+			  |----------> la variable va sin el & porque es un array. 
+Si quisiera escribir el &, deberìa escribirlo asi:
+scanf("%d", &nombre[0]);
+Esto se debe a que el nombre de un vector esta asociado a la dirección de memoria del primer elemento del vector; entonces no necesita la referencia con el &
+
