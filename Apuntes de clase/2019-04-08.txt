@@ -1,1 +1,22 @@
 Cadenas de caracteres
+En c no podemos usar directamente las cadenas de caracters como en otros lenguajes. El tipo de dato STRING no es nativo de c.
+¿Què podemos hacer entocnes? Podemos usar un array de chars. Esto se hace asi:
+	char nombre[41];  -------> declaro una variable de tipo char con 41 caracteres con el nombre "nombre".
+	
+Más ejemplos:
+	int nro=5;
+	int nros[5]={1,5,3,4,2}; -> esto solamente lo puedo hacer en el momento que declaro; no le puedo cargar asi 							los datos luego de haberla declarado.
+	char saludo[10];
+	saludo="hola";	-> esto no lo puedo hacer.
+
+
+Como no tenemos un dato que sea de tipo string; sino arrays de chars; existen librerias que nos pueden ayudar a manipular estas cadenas. Por ejemplo en el caso de hacer saludo="hola"; quye no se podia
+	La soluciòn se darìa de la siguiente forma: strcpy(saludo,"hola");
+
+Estas funciones provienen de la libreria "string.h"; por lo cual deberiamos colocar la linea: 
+#include <string.h>
+
+
+Para mostrar por pantalla el contenido de una variable "string"; hacemos lo siguiente:
+printf("El saludo diciendo: %s", saludo);
+
