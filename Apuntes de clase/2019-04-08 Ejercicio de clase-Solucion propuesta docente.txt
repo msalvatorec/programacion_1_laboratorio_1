@@ -1,0 +1,11 @@
+Solucion proipuesta por el docente:
+
+1) strlwr(nombre);
+2) strlwr(apellido);
+3) nombre[0]=toupper(nombre[0]);
+4) apellido[0]=toupper(apellido[0]);
+5) apellidoNombre[0];
+6) strcat(apellidoNombre,apellido);
+7) strcat(apellidoNombre," ");
+8) strcat(apellidoNombre, nombre);
+9) printf("%s", apellidoNombre);
