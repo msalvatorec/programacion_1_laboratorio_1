@@ -22,15 +22,9 @@
 int main()
 {
     ePersona per;
-    printf("\nIngrese apellido: ");
-    scanf("%s",per.apellido);
+    per=altaPersona(per);
 
-    printf("\nIngrese nombre: ");
-    scanf("%s",per.nombre);
 
-    printf("\nIngrese edad: ");
-    scanf("%d",&per.edad);
-    per.isEmpty=0;
 
     printf("\n\nApellido: %s \t",per.apellido);
     printf("Nombre: %s \t ",per.nombre);

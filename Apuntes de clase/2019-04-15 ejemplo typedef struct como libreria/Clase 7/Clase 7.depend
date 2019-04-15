@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1555370269 source:/home/alumno/Documentos/msalvatorec/programacion_1_laboratorio_1/Apuntes de clase/2019-04-15 ejemplo typedef struct como libreria/Clase 7/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ePersona.h"
+
+1555370375 /home/alumno/Documentos/msalvatorec/programacion_1_laboratorio_1/Apuntes de clase/2019-04-15 ejemplo typedef struct como libreria/Clase 7/ePersona.h
+
