@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "ePersona.h"
 
 
 /*struct Persona
@@ -10,13 +11,13 @@
 	int isEmpty;
 };*/
 
-typedef struct
+/*typedef struct
 {
 	char apellido[31];
 	char nombre[31];
 	int edad;
 	int isEmpty;
-}ePersona;
+}ePersona;*/
 
 int main()
 {
@@ -40,4 +41,3 @@ int main()
 
 
 }
-
