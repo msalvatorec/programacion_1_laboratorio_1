@@ -8,3 +8,23 @@ struct Persona
 	int isEmpty;
 };
 
+
+Para ucrear una variable tipo struct Persona, hay que hacer lo siguiente
+
+struct Persona per;
+
+Tal vez es un poco incomodo ya que tenemos que siempre agregar la palabra "struct" a todas las estructuras que creamos. Siendo asi, en lugar de definirlo como lo dijimos antes; podemos hacer lo siguiente:
+
+typedef struct 
+{
+	char apellido[31];
+	char nombre[31];
+	int edad;
+	int isEmpty;
+}ePersona;
+
+Entonces para usar una variable del tipo ePersona, hacemos:
+
+ePersona per;
+
+
